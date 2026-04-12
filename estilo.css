@@ -17,20 +17,22 @@
     object-fit: cover;
 }
 
-/* GALERÍA */
-.galeria {
+
+.centrado {
     text-align: center;
 }
 
 .imagen {
     display: inline-block;
+    width: 250px;
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
+    text-align: center;
 }
 
 .imagen img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     object-fit: cover;
 }
