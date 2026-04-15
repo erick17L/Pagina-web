@@ -71,3 +71,27 @@ footer {
 section {
     margin: 80px 0;
 }
+
+a:focus-visible {
+    outline: 3px solid #00bfff;
+    outline-offset: 4px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 70px;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
+
+.menu ul {
+    padding-right: 50px;
+}
