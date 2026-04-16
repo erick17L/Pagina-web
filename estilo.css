@@ -104,3 +104,7 @@ section{
 .imagen:hover{
     transform:scale(1.05);
 }
+
+h1,h2{
+    color: #0070FF;
+}
